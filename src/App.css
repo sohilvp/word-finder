@@ -1,0 +1,101 @@
+.App{
+  width: 100%;
+  min-height: 100vh;
+}
+.home{
+  background: #00CBA9;
+  padding-top: 10em ;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+input{
+  padding: 10px 10px;
+  outline: none;
+  border: none;
+  width: 300px;
+  margin-bottom: .4em;
+  border-radius: 25px;
+  font-size: 1.1rem;
+}
+button{
+  outline: none;
+  border: none;
+  padding: .8em 2.5em;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+h1{
+  margin: 0;
+  font-size: 4rem;
+  font-family: 'Lumanosimo', cursive;
+}
+
+.resopnse-container{
+  display: flex;
+  max-width: 80%;
+  margin: 0 auto;
+  background: #E3F6FF;
+  padding: 1em;
+  border-radius: 10px;
+  margin-bottom: 4em;
+  gap: 2em;
+}
+.left{
+  flex: .7;
+  display: flex;
+  flex-direction: column;
+}
+.right{
+  flex: 1;
+}
+
+.sub{
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.err{
+  color: red;
+  font-family: 'Lumanosimo', cursive;
+
+}
+img {
+  border: none;
+  outline: none;
+}
+
+
+
+@media only screen and (max-width:777px) {
+  .resopnse-container{
+ flex-direction: column;
+  }
+}
+
+
+@media only screen and (max-width:777px) {
+  h1{
+ font-size: 3rem;
+  }
+  
+  
+}
+
+@media only screen and (max-width:480px) {
+  h1{
+    font-size: 2.8rem;
+     }
+     input{
+       width:240px;
+     }
+     audio{
+      width: 200px;
+     }
+}
